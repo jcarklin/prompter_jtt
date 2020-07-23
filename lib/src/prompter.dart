@@ -11,7 +11,7 @@ class Prompter {
     return input.contains('y');
   }
 
-  int askMultiple(String prompt, List<Option> options) {
+  askMultiple(String prompt, List<Option> options) {
     final input = _ask(prompt, options);
     try {
       return options[int.parse(input)].value;
