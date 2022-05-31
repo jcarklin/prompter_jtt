@@ -1,6 +1,5 @@
 FROM gitpod/workspace-full-vnc:2022-05-17-12-26-08
 SHELL ["/bin/bash", "-c"]
-#ENV PATH="$HOME/dart/bin:$PATH"
 
 # Install Open JDK for android and other dependencies
 USER root

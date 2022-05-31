@@ -18,7 +18,7 @@ class Terminal {
     }
   }
 
-  String collectInput() {
+  String? collectInput() {
     return stdin.readLineSync();
   }
 

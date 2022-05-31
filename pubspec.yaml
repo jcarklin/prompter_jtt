@@ -3,5 +3,5 @@ description: Library for CLI functionality
 version: 0.0.2
 homepage: http://www.fibrelove.com
 environment:
-  sdk: '>=2.2.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
